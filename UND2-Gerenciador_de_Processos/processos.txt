@@ -1,0 +1,39 @@
+    PID CMD                         PRI  NI STAT %CPU     TIME
+  30662 bash                         19   0 Ss    0.0 00:00:00
+  34524  \_ ./exec                   19   0 S+    0.0 00:00:00
+  35863      \_ sh -c ps af -o pid,  19   0 S+    0.0 00:00:00
+  35864          \_ ps af -o pid,cm  19   0 R+    0.0 00:00:00
+   1616 /usr/lib/gdm3/gdm-x-session  19   0 Ssl+  0.0 00:00:00
+   1619  \_ /usr/lib/xorg/Xorg vt2   19   0 Sl+  18.8 00:16:41
+   1667  \_ /usr/libexec/gnome-sess  19   0 Sl+   0.0 00:00:00
+   1201 /usr/lib/gdm3/gdm-x-session  19   0 Ssl+  0.0 00:00:00
+   1203  \_ /usr/lib/xorg/Xorg vt1   19   0 Sl+   0.0 00:00:02
+   1289  \_ dbus-run-session -- gno  19   0 S+    0.0 00:00:00
+   1290      \_ dbus-daemon --nofor  19   0 S+    0.0 00:00:00
+   1291      \_ /usr/libexec/gnome-  19   0 Sl+   0.0 00:00:00
+   1328          \_ /usr/bin/gnome-  19   0 Sl+   0.0 00:00:03
+   1352          |   \_ ibus-daemon  19   0 Sl    0.0 00:00:00
+   1355          |       \_ /usr/li  19   0 Sl    0.0 00:00:00
+   1423          |       \_ /usr/li  19   0 Sl    0.0 00:00:00
+   1406          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:01
+   1408          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1409          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1410          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1412          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1413          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1414          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1415          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1416          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1417          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1418          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1419          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1420          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1421          \_ /usr/libexec/gs  19   0 Sl+   0.0 00:00:00
+   1465 /usr/libexec/gsd-printer     19   0 Sl+   0.0 00:00:00
+   1384 /usr/bin/gjs /usr/share/gno  19   0 Sl+   0.0 00:00:00
+   1374 /usr/libexec/xdg-permission  19   0 Sl+   0.0 00:00:00
+   1370 /usr/libexec/at-spi2-regist  19   0 Sl+   0.0 00:00:00
+   1360 /usr/libexec/ibus-portal     19   0 Sl+   0.0 00:00:00
+   1358 /usr/libexec/ibus-x11 --kil  19   0 Sl    0.0 00:00:00
+   1298 /usr/libexec/at-spi-bus-lau  19   0 Sl+   0.0 00:00:00
+   1303  \_ /usr/bin/dbus-daemon --  19   0 S+    0.0 00:00:00
